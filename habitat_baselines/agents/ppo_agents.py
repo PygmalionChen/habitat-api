@@ -142,7 +142,7 @@ def main():
         default="blind",
         choices=["blind", "rgb", "depth", "rgbd"],
     )
-    parser.add_argument("--model-path", default="", type=str)
+    parser.add_argument("--model-path", default="", type=str) #/habitat_baselines_v1
     parser.add_argument(
         "--task-config", type=str, default="configs/tasks/pointnav.yaml"
     )
